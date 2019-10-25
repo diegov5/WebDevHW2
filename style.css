@@ -1,0 +1,9 @@
+.titleAndSubtitle{
+    text-transform: uppercase;
+    text-shadow: 10em;
+    vertical-align: center;
+}
+
+.ArticleSection{
+    color: red;
+}
