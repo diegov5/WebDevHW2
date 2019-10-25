@@ -1,9 +1,5 @@
 .grid-container {
     display: grid;
-    grid-template-areas: 
-      "header header"
-      "sidebar content"
-      "footer footer";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
@@ -24,11 +20,18 @@
     grid-column-end: 3;
 }
 
+.Story{
+    padding: 3px;
+    outline: solid;
+    outline-color: black;
+}
+
 .SportsStories{
     grid-column-start: 1;
     grid-row-start: 1;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1em;
 }
 
 .BusinessStories{
@@ -36,6 +39,7 @@
     grid-row-start: 2;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1em;
 }
 
 .EntertainmentStories{
@@ -43,6 +47,7 @@
     grid-row-start: 3;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1em;
 }
 
 .TravelStories{
@@ -50,5 +55,6 @@
     grid-row-start: 4;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1em;
 }
 
