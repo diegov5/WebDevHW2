@@ -1,8 +1,16 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-auto-rows: 100px;
+    grid-template-areas: 
+      "header header"
+      "sidebar content"
+      "footer footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
   }
+
+*{
+    background-color: bisque;
+}
 
 .titleAndSubtitle{
     text-transform: uppercase;
@@ -11,7 +19,36 @@
 }
 
 .ArticleSection{
-    color: red;
+    color: black;
     grid-column-start: 1;
     grid-column-end: 3;
 }
+
+.SportsStories{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.BusinessStories{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.EntertainmentStories{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.TravelStories{
+    grid-column-start: 1;
+    grid-row-start: 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
