@@ -1,17 +1,16 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
   }
 
-*{
-    background-color: bisque;
+html{
+    background-image: linear-gradient(rgba(187, 14, 14, 0.952), rgba(206, 1, 1, 0.685));
 }
 
 .titleAndSubtitle{
     text-transform: uppercase;
     text-shadow: 10em;
-    vertical-align: center;
+    text-align: center;
 }
 
 .ArticleSection{
