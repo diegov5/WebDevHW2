@@ -109,6 +109,21 @@ h2{
     margin-right: 20em;
 }
 
+nav {
+    width: 10em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+} 
+
+li a {
+    display: block;
+}
+
 nav.Related{
     background: #02C8A7;
 }
