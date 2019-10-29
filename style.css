@@ -3,9 +3,19 @@
     grid-template-columns: 1fr;
   }
 
-html{
-    background-image: linear-gradient(rgba(187, 14, 14, 0.952), rgba(206, 1, 1, 0.685));
+body{
+    background-image: linear-gradient(rgb(25, 116, 13), rgba(214, 243, 198, 0.089));
 }
+
+a{
+    font-weight: bold;
+}
+
+figcaption{
+    font-style: italic;
+    text-align: left;
+}
+
 
 .titleAndSubtitle{
     text-transform: uppercase;
@@ -22,7 +32,10 @@ html{
 .Story{
     padding: 3px;
     outline: solid;
+    outline-width: 2px;
     outline-color: black;
+    text-align: center;
+    box-shadow: 5px;
 }
 
 .SportsStories{
@@ -31,6 +44,10 @@ html{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 1em;
+    outline: solid;
+    outline-color: rgba(255, 127, 127, 0.473);
+    padding: 10px;
+    box-shadow: 10px;
 }
 
 .BusinessStories{
