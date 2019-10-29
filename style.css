@@ -105,8 +105,8 @@ h2{
 }
 
 .articleBody{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 20em;
+    margin-right: 20em;
 }
 
 nav.Related{
@@ -119,6 +119,7 @@ nav.OtherCategories{
 
 nav a {
     text-decoration: none;
+
 }
 
 .hero{
