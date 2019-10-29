@@ -98,6 +98,11 @@ figcaption{
     column-gap: 1em;
 }
 
+.articleBody{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 nav.Related{
     background: #02C8A7;
 }
@@ -108,5 +113,12 @@ nav.OtherCategories{
 
 nav a {
     text-decoration: none;
+}
+
+.hero{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
 }
 
