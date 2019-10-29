@@ -23,6 +23,8 @@ figcaption{
 
 
 .titleAndSubtitle{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
     text-transform: uppercase;
     text-shadow: 10em;
     text-align: center;
@@ -36,6 +38,7 @@ figcaption{
     color: black;
     grid-column-start: 1;
     grid-column-end: 3;
+    
 }
 
 .Story{
