@@ -111,25 +111,35 @@ h2{
 
 nav {
     width: 10em;
+    vertical-align: top;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.274);
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 60px;
+    width: 10em;
 } 
 
 li a {
     display: block;
+    margin-bottom: 1em;
 }
+
 
 nav.Related{
     background: #02C8A7;
+    margin-top: 15em;
 }
 
 nav.OtherCategories{
     background: #02C8A7;
+    margin-top: 30em;
 }
 
 nav a {
