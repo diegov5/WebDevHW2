@@ -25,6 +25,14 @@ figcaption{
     text-align: left;
 }
 
+h1{
+    border-bottom: double;
+}
+
+h2{
+    border-bottom: inset;
+    border-bottom-style: solid;
+}
 
 .titleAndSubtitle{
     font-family: 'Anton', sans-serif;
@@ -32,8 +40,6 @@ figcaption{
     text-transform: uppercase;
     text-shadow: 10em;
     text-align: center;
-    border-bottom: thick;
-    border-bottom-style: solid;
     background-image: url(barnBackground.jpg);
     color: white;
 }
