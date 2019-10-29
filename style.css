@@ -97,3 +97,15 @@ figcaption{
     column-gap: 1em;
 }
 
+nav.Related{
+    background: #02C8A7;
+}
+
+nav.OtherCategories{
+    background: #02C8A7;
+}
+
+nav a {
+    text-decoration: none;
+}
+
