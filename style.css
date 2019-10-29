@@ -144,3 +144,8 @@ nav a {
     width: 45em;
 }
 
+footer{
+    padding: 25px;
+    text-align: center;
+    font-style: italic;
+}
