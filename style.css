@@ -117,8 +117,9 @@ nav a {
 
 .hero{
     display: block;
-    margin-left: auto;
+    margin-left: 30%;
     margin-right: auto;
     width: 45%;
+
 }
 
