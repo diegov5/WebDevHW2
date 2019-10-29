@@ -3,8 +3,8 @@
     grid-template-columns: 1fr;
   }
 
-body{
-    background-image: linear-gradient(rgb(25, 116, 13), rgba(214, 243, 198, 0.089));
+html{
+    background: rgba(68, 241, 16, 0.603);
 }
 
 a{
@@ -21,6 +21,8 @@ figcaption{
     text-transform: uppercase;
     text-shadow: 10em;
     text-align: center;
+    border-bottom: thick;
+    border-bottom-style: solid;
 }
 
 .ArticleSection{
