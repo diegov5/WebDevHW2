@@ -11,6 +11,14 @@ a{
     font-weight: bold;
 }
 
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: blue;
+}
+
 figcaption{
     font-style: italic;
     text-align: left;
