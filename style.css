@@ -8,6 +8,10 @@ a{
     font-weight: bold;
 }
 
+html{
+    background: #7CDBD5;
+}
+
 a:link{
     color: blue;
 }
@@ -55,7 +59,7 @@ figcaption{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 1em;
-    background: #7CDBD5;
+    background: #02C8A7;
     padding: 30px;
     box-shadow: 3px 3px 5px 6px #ccc;
 }
