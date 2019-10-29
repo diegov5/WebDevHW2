@@ -3,9 +3,6 @@
     grid-template-columns: 1fr;
   }
 
-html{
-    background: rgba(68, 241, 16, 0.603);
-}
 
 a{
     font-weight: bold;
@@ -31,6 +28,8 @@ figcaption{
     text-align: center;
     border-bottom: thick;
     border-bottom-style: solid;
+    background-image: url(barnBackground.jpg);
+    color: white;
 }
 
 .ArticleSection{
@@ -45,7 +44,6 @@ figcaption{
     outline-width: 2px;
     outline-color: black;
     text-align: center;
-    box-shadow: 5px;
 }
 
 .SportsStories{
@@ -54,10 +52,9 @@ figcaption{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 1em;
-    outline: solid;
-    outline-color: rgba(255, 127, 127, 0.473);
-    padding: 10px;
-    box-shadow: 10px;
+    background: #7CDBD5;
+    padding: 30px;
+    box-shadow: 3px 3px 5px 6px #ccc;
 }
 
 .BusinessStories{
@@ -65,6 +62,9 @@ figcaption{
     grid-row-start: 2;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: #F53240;
+    padding: 30px;
+    box-shadow: 3px 3px 5px 6px #ccc;
     column-gap: 1em;
 }
 
@@ -73,6 +73,9 @@ figcaption{
     grid-row-start: 3;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: #F9BE02;
+    padding: 30px;
+    box-shadow: 3px 3px 5px 6px #ccc;
     column-gap: 1em;
 }
 
@@ -81,6 +84,9 @@ figcaption{
     grid-row-start: 4;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: #02C8A7;
+    padding: 30px;
+    box-shadow: 3px 3px 5px 6px #ccc;
     column-gap: 1em;
 }
 
