@@ -130,7 +130,8 @@ nav a {
 }
 
 footer{
-    padding: 25px;
+    padding-top: 35px;
+    padding-bottom: 25px;
     text-align: center;
     font-style: italic;
 }
