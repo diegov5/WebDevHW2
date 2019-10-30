@@ -11,6 +11,7 @@
 
 a{
     font-weight: bold;
+    text-decoration: none;
 }
 
 html{
@@ -110,6 +111,19 @@ h2{
     column-gap: 1em;
 }
 
+.ArticleTitle{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 10em;
+    background-image: url(barnBackground.jpg);
+    color: white;
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.274);
+}
+
+.title-text{ 
+    text-decoration: none;
+}
+
 .articleBody{
     margin-left: 20em;
     margin-right: 20em;
@@ -140,12 +154,12 @@ li a {
 
 nav.Related{
     background: #02C8A7;
-    margin-top: 15em;
+    margin-top: 20em;
 }
 
 nav.OtherCategories{
     background: #02C8A7;
-    margin-top: 30em;
+    margin-top: 35em;
 }
 
 nav a {
